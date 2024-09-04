@@ -37,6 +37,10 @@ a{
 img{
     display: block;
 }
+svg{
+    max-width: 100%;
+    height: auto;
+}
 /*Header*/
 
 .page-header{
@@ -92,6 +96,20 @@ img{
         padding-top: 24px;
         padding-bottom: 24px;
         display: block;
+        
+}
+.link-page{
+    color: #2e2f42;
+text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+}
+.link-page:hover::before,
+.link-page:hover::after{
+    text-decoration: underline;
+    position: absolute;
+    color: #404BBF;
+    content:"";
 }
 .contacts {
     font-style: normal;
@@ -371,11 +389,23 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 }
 .footer-icon-link{
     display: flex;
+    height: 40px;
+    width: 40px;
+    outline: 1px solid transparent;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    width: 100%;
-    height: 100%;
+    cursor: pointer;
+    color: #4D5AE5;
+    transition-property: color;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+}
+.footer-icon-link:hover {
+    color: #31D0AA;
+
 
 }
 .footer-icon-text{
@@ -398,3 +428,4 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     display: flex;
     
 }
+
