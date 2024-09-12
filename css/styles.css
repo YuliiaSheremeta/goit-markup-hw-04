@@ -390,6 +390,7 @@ font-weight: 500;
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+    transform: translateY(0%);
     
 }
 
@@ -423,10 +424,7 @@ font-weight: 500;
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
-.text-portfolio-hidden:hover,
-.text-portfolio-hidden:focus{
-    transform: translateY(0%);
-}
+
 /*Footer*/
 .footer-logo .logo-part {
     color: #f4f4fd;
