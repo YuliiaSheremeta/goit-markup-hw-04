@@ -383,7 +383,7 @@ font-weight: 500;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
+
 .portfolio-item:hover,
 .portfolio-item:focus{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -405,7 +405,7 @@ font-weight: 500;
     width: 360px;
     height: 300px;
 }
-.text-hidden-container{
+.text-portfolio-hidden{
     position: absolute;
     top: 0;
     left: 0;
@@ -423,8 +423,8 @@ font-weight: 500;
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
-.text-hidden-container:hover,
-.text-hidden-container:focus{
+.text-portfolio-hidden:hover,
+.text-portfolio-hidden:focus{
     transform: translateY(0%);
 }
 /*Footer*/
