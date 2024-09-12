@@ -402,7 +402,7 @@ font-weight: 500;
 .portfolio-item p:hover{
 transform: translateY(0%);
 }
- 
+
 
 .portfolio-text-container{
     border: 1px solid  #E7E9FC;
@@ -416,23 +416,26 @@ transform: translateY(0%);
     width: 360px;
     height: 300px;
 }
-.text-portfolio-hidden{
-    position: absolute;
-    top: 0;
-    left: 0;
+
+.text-portfolio-overlay{
+    color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
-    background-color: #4d5ae5;
-    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-
+    height: 100%;
+    background-color: #4d5ae5;
+    padding: 40px 32px;
     transform: translateY(100%);
     transition-property: transform; 
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
+.foto-portfolio-container:hover .text-portfolio-overlay{
+    transform: translateY(0);
 }
 
 /*Footer*/
