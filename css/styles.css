@@ -277,12 +277,10 @@ svg{
     height: 40px;
     width: 40px;
 }
-.team-icon-link:hover{
+.team-icon-link:hover,.team-icon-link:focus{
     background-color:#404bbf;
 }
-.team-icon-link:focus{
-    background-color:#404bbf;
-}
+
 .team-icon{
     fill: #f4f4fd;
 }
