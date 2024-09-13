@@ -62,7 +62,7 @@ svg{
     gap: 40px;   
 }
 .nav-item a{
-    color: #2e2f42;
+  
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -113,6 +113,7 @@ svg{
         
 }
 .link-page{
+    color: #2e2f42;
     position: relative;
 }
 .link-page::after{
@@ -250,8 +251,7 @@ svg{
     padding-bottom: 32px;
 }
 .team-icon-list{
-    height: 40px;
-    width: 40px;
+
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -269,20 +269,21 @@ svg{
     height: 100%;
     width: 100%;
     cursor: pointer;
-  
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.team-icon-item {
+    height: 40px;
+    width: 40px;
 }
 .team-icon-link:hover,
 .team-icon-link:focus {
     background-color: #404bbf;
 }
-.team-icon{
-    fill:#f4f4fd;
-}
-.team-icon-item a{
-    transition-property: background-color;
-    transition-duration: 250ms; 
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
+
 
 
 /*Section Features*/
