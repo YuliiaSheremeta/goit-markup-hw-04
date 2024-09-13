@@ -24,7 +24,7 @@ a{
 }
 
 .container {
-    width: 1158px; 
+    max-width: 1158px; 
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -67,17 +67,7 @@ svg{
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-item::after{
-    content:"";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom:-1px;
-    height: 4px;
-    background-color:#404bbf;
-    border-radius: 2px;
-    
-}
+
 .contacts-list {
     display: flex;
     gap: 40px;
@@ -123,16 +113,20 @@ svg{
 }
 .link-page{
     color: #2e2f42;
-text-decoration: underline;
     cursor: pointer;
     position: relative;
 }
-.link-page:hover::before,
+
 .link-page:hover::after{
     text-decoration: underline;
     position: absolute;
-    color: #404BBF;
-    content:"";
+    content: "";
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color:#404bbf;
+    border-radius: 2px;
 }
 .contacts {
     font-style: normal;
@@ -158,18 +152,15 @@ text-decoration: underline;
         background-color: #2e2f42;
         padding-top: 188px;
         padding-bottom: 188px; 
-}
-    .section-hero{
         background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
-            background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
-            url(../images/backgroundfoto.jpg);
-            max-width: 1440px;
-           
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+        url(../images/backgroundfoto.jpg);
+        max-width: 1440px;
+       
 
 }
- 
 .section-order-title{
         font-weight: 700;
         font-size: 56px;
