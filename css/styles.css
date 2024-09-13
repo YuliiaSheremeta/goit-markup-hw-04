@@ -62,7 +62,6 @@ svg{
     gap: 40px;   
 }
 .nav-item a{
-  
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -97,7 +96,7 @@ svg{
 }
 
 .header-logo .logo-part {
-    color: #2e2f42;
+       color: #2e2f42;
     
 }
 
@@ -113,7 +112,7 @@ svg{
         
 }
 .link-page{
-    color: #2e2f42;
+    color: #404bbf;
     position: relative;
 }
 .link-page::after{
@@ -278,11 +277,15 @@ svg{
     height: 40px;
     width: 40px;
 }
-.team-icon-link:hover,
-.team-icon-link:focus {
+.team-icon-link:hover{
     background-color: #404bbf;
 }
-
+.team-icon-link:focus{
+    background-color: #404bbf;
+}
+.team-icon{
+    fill: #f4f4fd;
+}
 
 
 
