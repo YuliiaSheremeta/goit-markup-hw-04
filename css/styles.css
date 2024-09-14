@@ -275,6 +275,9 @@ svg{
  .team-icon-list .team-icon-link:focus {
     background-color: #404bbf;
 }
+.team-icon-list .team-icon-link:active{
+    background-color: #404bbf;
+}
 
 .team-icon-item {
     height: 40px;
