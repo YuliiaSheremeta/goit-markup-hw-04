@@ -271,11 +271,10 @@ svg{
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
- .team-icon-list .team-icon-link:hover,
- .team-icon-list .team-icon-link:focus {
+ .team-icon-list .team-icon-link:hover{
     background-color: #404bbf;
 }
-.team-icon-list .team-icon-link:active{
+.team-icon-list .team-icon-link:focus{
     background-color: #404bbf;
 }
 
