@@ -258,7 +258,6 @@ svg{
     padding-left: 16px;
     padding-right: 16px; 
 }
-
 .team-icon-link{
     display: flex;
     background-color: #4d5ae5;
@@ -271,14 +270,15 @@ svg{
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
+ .team-icon-list .team-icon-link:hover,
+ .team-icon-list .team-icon-link:focus {
+    background-color: #404bbf;
+}
+
 .team-icon-item {
     height: 40px;
     width: 40px;
-}
-.team-icon-link:hover,.team-icon-link:focus{
-    background-color:#404bbf;
 }
 
 .team-icon{
