@@ -267,7 +267,6 @@ svg{
     height: 100%;
     width: 100%;
     cursor: pointer;
-    outline: 1px solid transparent;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
